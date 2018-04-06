@@ -1,0 +1,55 @@
+/* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url('../fonts/OpenSansBold/OpenSansBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansBold/OpenSansBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSansBold/OpenSansBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  src: url('../fonts/OpenSansExtraBold/OpenSansExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansExtraBold/OpenSansExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: 800;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url('../fonts/OpenSansItalic/OpenSansItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansItalic/OpenSansItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSansItalic/OpenSansItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: bold;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: url('../fonts/OpenSansSemiBold/OpenSansSemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansSemiBold/OpenSansSemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('../fonts/OpenSansRegular/OpenSansRegular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansRegularItalic';
+  src: url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: 400;
+       font-style: italic;
+}
+
