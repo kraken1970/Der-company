@@ -37,6 +37,12 @@ body {
   margin: 0 12vw;
 }
 
+.container-white {
+  padding: 100px 0 ;
+  background-color: #fff;
+  color: #000;
+}
+
 .main-header {
   background-color: #000000;
   color: #fff;
@@ -256,7 +262,88 @@ body {
   }
 }
 
+.title_black {
+  color: #222;
+}
 
+.our_services-text {
+  text-align: center;
+  color: #6c6c6c;
+  font-size: 1.067vw;
+  line-height: 1.6vw;
+  font-style: italic;
+  margin-bottom: 7vw;
+}
 
+.our_services--tips {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* flex-basis: 16.66vw; */
+}
+
+.our_services--tips-cart {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #222222;
+}
+
+.service_cart--img {
+  width: 8.333vw;
+  height: 8.333vw;
+  border: 6px solid #fcac45;
+  border-radius: 50%;
+  text-align: center;
+
+  margin-bottom: 1.86vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 3.6vw;
+    height: 3.6vw;
+  }
+}
+
+.service_cart--title {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'OpenSansSemiBold';
+  margin-bottom: 1.13vw;
+}
+
+.clients {
+  background-color: #0b0b0b;
+  padding: 6.67vw 0 14.2vw 0;
+}
+
+.service_cart--text {
+  font-size: 0.9333vw;
+  line-height: 1.4vw;
+}
+
+.all-title--content.title-white {
+  font-size: 2.933vw;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: 'OpenSansLight';
+  span {
+    font-family: 'OpenSansSemiBold';
+  }
+}
+
+.our-clients {
+  margin: 0 18.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0;
+}
+
+.our-clients--cart {
+  width: 11.066vw;
+}
 
 

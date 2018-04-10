@@ -40,7 +40,7 @@
   src: url('../fonts/OpenSansRegular/OpenSansRegular.eot'); /* IE9 Compat Modes */
   src: url('../fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: 400;
+       font-weight: 300;
        font-style: normal;
 }
 
@@ -51,5 +51,14 @@
        url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
        font-weight: 400;
        font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('../fonts/OpenSansLight/OpenSansLight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSansLight/OpenSansLight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fontsOpenSansLightc/OpenSansLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+       font-weight: 300;
+       font-style: normal;
 }
 
