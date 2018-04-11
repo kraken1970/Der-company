@@ -29,6 +29,21 @@ img {
   height: auto;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  padding: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    transform: scale(0.85);
+  }
+}
+
 body {
   /* max-width: 1500px; */
   font-family: 'OpenSansRegular', sans-serif;
@@ -38,7 +53,7 @@ body {
 }
 
 .container-white {
-  padding: 100px 0 ;
+  padding: 6.66vw 0 ;
   background-color: #fff;
   color: #000;
 }
@@ -115,6 +130,7 @@ body {
 
 .main_title {
   font-size: 2.93333vw;
+  font-family: 'OpenSansLight', sans-serif;
   line-height: 2.93333vw;
   color: #999;
   font-weight: 300;
@@ -122,6 +138,7 @@ body {
   span {
     color: #fcac45;
     font-weight: 700;
+    font-family: 'OpenSansBold', sans-serif;
   }
 }
 
@@ -154,6 +171,7 @@ body {
 .about_us--title {
   text-transform: uppercase;
   font-size: 2.2666vw;
+  font-family: 'OpenSansLight', sans-serif;
   line-height: 2.4666vw;
   font-weight: 400;
   color: #222;
@@ -162,7 +180,7 @@ body {
   margin-bottom: 1.67vw;
   width: max-content;
   span {
-    font-weight: 700;
+    font-family: 'OpenSansBold', sans-serif;
   }
 }
 
@@ -216,6 +234,10 @@ body {
     line-height: 2.09333vw;
     padding-bottom: 2vw;
     position: relative;
+    span {
+      font-family: 'OpenSansLight', sans-serif;
+      font-weight: 300;
+    }
     &::after {
       content: '';
       width: 6.53333vw;
@@ -328,9 +350,9 @@ body {
   font-size: 2.933vw;
   color: #ffffff;
   font-weight: 300;
-  font-family: 'OpenSansLight';
+  font-family: 'OpenSansLight', sans-serif;
   span {
-    font-family: 'OpenSansSemiBold';
+    font-family: 'OpenSansSemiBold', sans-serif;
   }
 }
 
@@ -344,6 +366,125 @@ body {
 
 .our-clients--cart {
   width: 11.066vw;
+}
+
+.our_work--text {
+  margin-bottom: 11.66vw;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .works-img {
+    width: 17.5333vw;
+    margin-bottom: 2vw;
+    cursor: pointer;
+    opacity: 0.8;
+    &:hover {
+      outline: 2px solid #fcac45;
+      transform: scale(0.95);
+      opacity: 1;
+    }
+  }
+  .works-img.active {
+    opacity: 1;
+  }
+}
+
+.testimonials,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonials--text {
+  max-width: 62.3333vw;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  line-height: 1.6vw;
+  font-family: 'OpenSansSemiBold',  sans-serif;
+  margin-bottom: 3vw;
+}
+
+.testimonials--name {
+  line-height: 1.6vw;
+  color: #b2b2b2;
+  font-family: 'OpenSansSemiBold',  sans-serif;
+  font-size: 1.2vw;
+  span {
+    font-family: 'OpenSansLight', sans-serif;
+  }
+}
+
+.contact {
+  width: 50.267vw;
+  margin: 0 auto;
+}
+
+.contact-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  input {
+    width: 24vw;
+    display: flex;
+    margin-bottom: 2.333vw;
+    height: 2.67vw;
+  }
+  label {
+    text-align: left;
+    color: #636363;
+    font-family: 'OpenSansRegular', sans-serif;
+    font-size: 0.933vw;
+    line-height: 1.6vw;
+    span {
+      color: #db0000;
+    }
+  }
+  .message {
+    width: 100%;
+    margin-bottom: 2vw;
+    height: 11vw;
+  }
+  button.btn.contact-submit {
+    margin-left: auto;
+    background-color: #fcac45;
+    font-size: 1.067vw;
+    color: #fff;
+    padding: 1vw 4vw;
+    &:hover {
+      border: 2px solid #000;
+    }
+  }
+}
+
+.main-footer {
+  background-color: #222222;
+  padding: 2vw 0;
+}
+
+.social_net {
+  width: 14.067vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  svg {
+    width: 2vw;
+    height: 2vw;
+    fill: #b2b2b2;
+    cursor: pointer;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+      transform: scale(0.85);
+    }
+  }
 }
 
 

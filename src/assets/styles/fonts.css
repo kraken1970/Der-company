@@ -17,14 +17,6 @@
        font-style: normal;
 }
 
-@font-face {
-  font-family: 'OpenSansItalic';
-  src: url('../fonts/OpenSansItalic/OpenSansItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/OpenSansItalic/OpenSansItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/OpenSansItalic/OpenSansItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: italic;
-}
 
 @font-face {
   font-family: 'OpenSansSemiBold';
@@ -44,14 +36,6 @@
        font-style: normal;
 }
 
-@font-face {
-  font-family: 'OpenSansRegularItalic';
-  src: url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: 400;
-       font-style: italic;
-}
 
 @font-face {
   font-family: 'OpenSansLight';

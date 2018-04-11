@@ -38,7 +38,17 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+	.works .works-img {
+    width: 36vw;
+    margin-bottom: 4vw;
+	}
+	.contact-us input {
+		flex-direction: column;
+		width: 50vw;
+	}
+	button.btn.contact-submit {
+		margin-right: auto;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -53,6 +63,15 @@
 	.our_team--carts .our_team--carts-cart {
 		width: 92%;
 		margin-bottom: 40px;
+	}
+	.works {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		.works-img {
+			width: 72vw;
+		}
 	}
 }
 
